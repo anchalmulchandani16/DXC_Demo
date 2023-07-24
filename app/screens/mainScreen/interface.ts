@@ -1,5 +1,6 @@
 export interface ListItemsProps {
-  name: string;
+    title:string,
+    data: Array<string>,
 }
 
 export interface TaskResponse {

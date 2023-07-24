@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { Colors } from '../../utils';
-import { scale } from '../../utils/scale';
+import { moderateScale, scale } from '../../utils/scale';
 const Styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -21,6 +21,9 @@ const Styles = StyleSheet.create({
     bottom: '8%',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  flatListStyle:{
+    marginBottom:moderateScale(40)
   },
   inputView: {
     borderColor: Colors.COLOR_BROWN,
